@@ -1,0 +1,18 @@
+.display-video{
+    display:inline-block;
+    width: 375px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-right: 8px;
+    margin-bottom: 15px;
+    vertical-align: top;
+    }
+
+
+.body{
+    margin: 0;
+    padding-top: 85px;
+    padding-left: 99px;
+    background-color: rgb(36, 34, 34);
+}

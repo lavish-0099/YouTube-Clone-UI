@@ -1,0 +1,152 @@
+.header{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(36, 34, 34);
+}
+
+
+.left-section{
+    display: flex;
+    margin-right: 60px;
+    align-items: center;
+}
+
+
+.hamburger-menu{
+    height: 25px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+
+.youtube-logo{
+    height: 35px;
+    width: 40px;
+}
+
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    margin-right: 100px;
+    margin-left: 70px;    
+    max-width: 400px;
+    align-items: center;
+}
+
+
+.search-box{
+    width: 0;
+    height: 32px;
+    flex: 1;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(214, 210, 210);
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+
+
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05) ;
+    background-color: rgb(36, 34, 34);
+}
+
+
+.search-box::placeholder{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+
+
+   
+}
+
+
+.search{
+    height: 35px;
+    width: 50px;
+    border-style:solid ;
+    border-color: rgb(214, 210, 210);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-width:1px ;
+    background-color: rgb(36, 34, 34);
+
+
+}
+
+
+.search-img{
+    height: 28px;
+    width: 30px;
+}
+
+
+.search-voice{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border-style:solid ;
+    border-color: rgb(214, 210, 210);
+    border-width: 1px;
+    background-color: rgb(36, 34, 34);    margin-left: 10px;
+}
+
+
+.search-voice-img{
+    height: 70%;
+}
+
+
+.right-section{  
+    display: flex;
+    width: 180px;
+    align-items:center;
+    margin-right: 90px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+
+
+.upload{
+    height: 30px;
+}
+
+
+.youtube-app{
+    height: 30px;
+   
+}
+
+
+.notification{
+    height: 30px;
+   
+   
+}
+
+
+.display-photo{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+   
+}
+
+
+.right-section,.left-section:hover{
+    cursor: pointer;
+}
+
+.search,.search-voice:hover{
+    cursor: pointer;
+}
+
