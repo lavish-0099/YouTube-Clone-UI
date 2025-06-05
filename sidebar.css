@@ -1,0 +1,80 @@
+.sidebar{
+    position: fixed;
+    background-color: rgb(36, 34, 34);
+    color: black;
+    left: 0;
+    bottom: 0;
+    top: 70px;
+    width: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.home{
+    position: absolute;
+    top: 70px;
+    right: 35px;
+    color: white;
+    font-size: 10px;
+    width: 30px;
+}
+
+
+.home-icon{
+    width: 30px;
+    height: 30px;
+
+
+}
+
+
+.shorts{
+    position: absolute;
+    top: 150px;
+    right: 35px;
+    color: white;
+    font-size: 10px;
+    width: 30px;
+}
+
+
+.shorts-icon{
+    width: 30px;
+    height: 30px;
+
+
+}
+
+
+.subscriptions{
+    position: absolute;
+    top: 230px;
+    right: 35px;
+    color: white;
+    font-size: 10px;
+    width: 30px;
+}
+
+
+.subscriptions-icon{
+    width: 30px;
+    height: 30px;
+
+
+}
+
+
+.you{
+    position: absolute;
+    top: 310px;
+    right: 35px;
+    color: white;
+    font-size: 10px;
+    width: 30px;
+}
+
+
+.you-icon{
+    width: 30px;
+    height: 30px;
+}
